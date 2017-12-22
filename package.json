@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "tianyu",
   "license": "MIT",
+  "engines": {
+    "node": "9.2.0",
+    "npm": "5.5.1"
+  },
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
